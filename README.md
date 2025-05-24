@@ -1,1 +1,1 @@
-# MOEGOT
+# AdaptGOT
