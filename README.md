@@ -13,8 +13,8 @@ We **strongly recommend** creating a clean virtual environment to avoid package 
 ### 🧮 Create and Activate a Virtual Environment
 
 ```bash
-conda create -n adaptgot python=3.10 -y
-conda activate adaptgot
+conda create -n adapoi python=3.10 -y
+conda activate adapoi
 ```
 
 ### 🧱 Install the required packages:
