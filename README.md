@@ -44,5 +44,5 @@ Run python3 load.py.
 ### 🧩 Step 3: Train the AdaptGOT Model
 
 ```bash
-python ourModel.py --emb_size 500 --vocab_size 30522 --num_epoch 100 --edge_feature_size 32
+python3 ourModel.py --emb_size 500 --vocab_size 30522 --num_epoch 100 --edge_feature_size 32
 ```
