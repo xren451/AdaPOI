@@ -26,7 +26,7 @@ pip install requirement.txt
 ### 🚀 Reproduction Steps
 
 ```bash
-To reproduce the full process, please follow these steps carefully (using **`yelp_la`** as an example):
+To reproduce the full process, please follow these steps carefully (using **yelp_la** as an example):
 ```
 
 ### 💡 Step 1. Preprocess the Raw Data
