@@ -6,7 +6,7 @@ Follow the instructions below to set up the environment and run the end-to-end p
 
 ---
 
-## ⚙️ Environment Setup
+### ⚙️ Environment Setup
 
 Before running the project, please ensure that all required dependencies are correctly installed.  
 We **strongly recommend** creating a clean virtual environment to avoid package conflicts.
@@ -19,15 +19,22 @@ conda activate adaptgot
 ```
 
 ### 🧱 Install the required packages:
+
+```bash
 pip install requirement.txt
+```
 
-## 🚀 Reproduction Steps
+### 🚀 Reproduction Steps
 
+```bash
 To reproduce the full process, please follow these steps carefully (using **`yelp_la`** as an example):
+```
 
 ### 🧩 Step 1. Preprocess the Raw Data
 
+```bash
 Run **`preprocess.py`**.  
+```
 
 Ensure your directories are organised as follows before execution:
 
@@ -42,11 +49,14 @@ model/
 │           └── (raw Yelp dataset files)
 └── ...
 
-Step 2: Load and Construct Graph Data
+### 🧩 Step 2: Load and Construct Graph Data
 
+```bash
 Run **`load.py`**.  
+```
 
-Step 3: Train the AdaptGOT Model
+### 🧩 Step 3: Train the AdaptGOT Model
 
+```bash
 python ourModel.py --emb_size 500 --vocab_size 30522 --num_epoch 100 --edge_feature_size 32
-
+```
