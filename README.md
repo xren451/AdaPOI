@@ -33,21 +33,21 @@ To reproduce the full process, please follow these steps carefully (using **`yel
 ### 🧩 Step 1. Preprocess the Raw Data
 
 ```bash
-Run **`python3 preprocess.py`**.  
+Run python3 preprocess.py.  
 ```
 
 Ensure your directories are organised as follows before execution:
 
 model/
-├── clean_data/
-│   └── yelp/
-│       └── yelp_la/
-│           └── ...
-├── raw_data/
-│   └── yelp/
-│       └── yelp_la/
-│           └── (raw Yelp dataset files)
-└── ...
+├─ clean_data/
+│  └─ yelp/
+│     └─ yelp_la/
+│        └─ ...
+├─ raw_data/
+│  └─ yelp/
+│     └─ yelp_la/
+│        └─ (raw Yelp dataset files)
+└─ ...
 
 ### 🧩 Step 2: Load and Construct Graph Data
 
