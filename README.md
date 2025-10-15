@@ -52,7 +52,7 @@ model/
 ### 🧩 Step 2: Load and Construct Graph Data
 
 ```bash
-Run **`load.py`**.  
+Run **load.py**.  
 ```
 
 ### 🧩 Step 3: Train the AdaptGOT Model
