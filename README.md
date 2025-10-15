@@ -1,5 +1,5 @@
 
-# 🧠 AdaptGOT:
+# 🧠 AdaptGOT
 
 This repository provides the full workflow to reproduce the **AdaptGOT** model, including data preprocessing, graph construction, and model training. Please follow the instructions below to set up the environment and run the end-to-end pipeline.
 
