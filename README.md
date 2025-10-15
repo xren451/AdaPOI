@@ -1,7 +1,7 @@
 
-# 🧠 AdaptGOT
+# 🧠 AdaPOI
 
-This repository provides the full workflow to reproduce the **AdaptGOT** model, including data preprocessing, graph construction, and model training. Please follow the instructions below to set up the environment and run the end-to-end pipeline.
+This repository provides the full workflow to reproduce the **AdaPOI** model, including data preprocessing, graph construction, and model training. Please follow the instructions below to set up the environment and run the end-to-end pipeline.
 
 ---
 
@@ -41,7 +41,7 @@ Run python3 preprocess.py.
 Run python3 load.py.  
 ```
 
-### 🧩 Step 3: Train the AdaptGOT Model
+### 🧩 Step 3: Train the AdaPOI Model
 
 ```bash
 python3 ourModel.py --emb_size 500 --vocab_size 30522 --num_epoch 100 --edge_feature_size 32
