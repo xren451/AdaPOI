@@ -16,9 +16,9 @@ We **strongly recommend** creating a clean virtual environment to avoid package 
 ```bash
 conda create -n adaptgot python=3.10 -y
 conda activate adaptgot
+```
 
-
-Then install the required packages:
+### 🧱 Install the required packages:
 pip install requirement.txt
 
 ## 🚀 Reproduction Steps
